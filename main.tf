@@ -13,5 +13,12 @@ resource "google_storage_bucket" "my-bucket2" {
   force_destroy            = true
   public_access_prevention = "enforced"
 }
+resource "google_storage_bucket" "my-bucket3" {
+  name                     = "tt-githubdemo-bucket-00299311"
+  project                  = "my-1st-project-428610"
+  location                 = "US"
+  force_destroy            = true
+  public_access_prevention = "enforced"
+}
 #
 ### dummy
